@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+ @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+ body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    background: #ffffff;
+ }
+
+
+
+.Header{
+    width: 1349px;
+    height: 38px;
+    padding: 10px;   
+    background-color: #1CD1B0;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.Main-Title{
+    width: 1349px;
+    height: 101px;
+    padding: 30px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+main{
+  display: flex;
+  width: 834px;
+  margin: auto;
+  margin-top: 85px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.Card-Batman{
+    width: 374px;
+    background: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 150px;
+    border-radius: 16px 16px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card-HarleyQuinn{
+    width: 374px;
+    background: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 150px;
+    border-radius: 16px 16px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile-Batman img{
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    margin-top: -70px;
+}
+
+.Profile-HarleyQuinn img{
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    margin-top: -70px;
+}
+
+.Background_Batman{
+background-image: url(../imgs/Background-Batman.png);
+background-repeat: no-repeat;
+width: 374px;
+height: 217.81px;
+}
+
+.Background_HarleyQuinn{
+background-image: url(../imgs/Background-HarleyQuinn.png);
+background-repeat: no-repeat;
+width: 374px;
+height: 217.81px;
+}
+
+.Icon img{
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.Body{
+    width: 374px;
+    height: 379.2px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Title{
+    text-align: center;
+    padding: 20px;
+}
+
+.Description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 30px;
+}
+
+.Button{
+    text-decoration: none;
+    text-align: center;
+    padding: 18px;
+    width: 145.34px;
+    height: 54.76px;
+    background-color: #00669f;
+    color: white;
+    font-size: 20px;
+    border: none;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer{
+    display: flex;
+    padding-left: 28px;
+    height: 51px;
+    background: #00669f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff9f9;
+    align-items: center; 
+}
+
+  
